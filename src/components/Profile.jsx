@@ -8,10 +8,10 @@ function Profile({name, location, bio}) {
       </div>
       <div className="flex flex-col items-center gap-2 sm:gap-1">
         <h2 className="leading-none font-medium sm:text-2xl text-lg">{name}</h2>
-        <p className="font-medium text-green text-lg">{location}</p>
+        <p className="font-medium text-green text-md sm:text-sm">{location}</p>
       </div>
       <div className="leading-none text-center italic mt-3 text-sm">
-        <p>{bio}</p>
+        <p>"{bio}"</p>
       </div>
     </div>
   );
